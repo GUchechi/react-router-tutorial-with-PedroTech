@@ -9,8 +9,7 @@ function App() {
   const [number, setNumber] = useState(99);
   return (
     <div className="App">
-      <About name={name} number={number} />
-      <Contact  number={number}/>
+     
     </div>
   );
 }
