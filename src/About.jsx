@@ -1,10 +1,9 @@
 import React from 'react'
 
-const About = ({name, number}) => {
+const About = () => {
   return (
     <div className='about'>
-        <h1>{name}</h1>
-        <h1>{number}</h1>
+        <h1>This is an about page</h1>
     </div>
   )
 }
