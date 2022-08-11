@@ -5,9 +5,11 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path="/" component={About} />
+      </div>
+    </Router>
   );
 }
 
